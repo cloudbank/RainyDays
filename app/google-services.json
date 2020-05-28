@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "906098872755",
+    "firebase_url": "https://rainydays-8d966.firebaseio.com",
+    "project_id": "rainydays-8d966",
+    "storage_bucket": "rainydays-8d966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906098872755:android:630de214488d2c73737bc6",
+        "android_client_info": {
+          "package_name": "com.droidteahouse.rainydays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906098872755-aucm1a4bktdl983848i95hto31egcdfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoph69HSGIV8KSl_77eUrg6y_XyjgxOTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906098872755-aucm1a4bktdl983848i95hto31egcdfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

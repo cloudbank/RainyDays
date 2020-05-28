@@ -1,0 +1,57 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="snackbarStyle">@style/MySnackBarStyle</item>
+        <item name="buttonStyle">@style/MyButton</item>
+        <item name="textColor">@color/white</item>
+        <item name="fontFamily">@font/atomic_age</item>
+        <item name="floatingActionButtonStyle">@style/MySnackBarStyle</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.MaterialComponents.PopupMenu.Overflow</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@color/otherColor</item>
+        <item name="android:buttonCornerRadius">0dp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
+    <style name="MyButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:buttonCornerRadius">0dp</item>
+    </style>
+
+    <style name="MySnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:background">?colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+
+    </style>
+
+    <style name="DarkTextButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>
+
