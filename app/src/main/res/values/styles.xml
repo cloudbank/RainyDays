@@ -45,7 +45,7 @@
 
     <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar">
         <item name="titleTextAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
-
+        <item name="fontFamily">@font/atomic_age</item>
     </style>
 
     <style name="DarkTextButton" parent="Widget.MaterialComponents.Button">

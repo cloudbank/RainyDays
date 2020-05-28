@@ -34,11 +34,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
+        toolbar.setTitleTextAppearance(this, R.style.AppTheme_Toolbar)
         setSupportActionBar(toolbar)
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Developer For Hire: http://droidteahouse.org", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "http://droidteahouse.org", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
@@ -61,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         nav_view.setupWithNavController(navController)
+
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id == R.id.nav_login  || destination.id == R.id.nav_home) {
                 toolbar.visibility = View.GONE
